@@ -1,6 +1,8 @@
-# Matlab
-Matlab skript for datavitenskap
+MATLAB-skript for datavitenskap
+Denne mappen inneholder forbedrede skript for datavitenskap utviklet av ingeniører. Flere skript kan bli lagt til etter hvert.
 
-Denne mappen inneholder forbedrede skript fra ingeniør for datavitenskap. Og kanskje flere etterhvert.
+Skriptene ble opprinnelig adoptert av Sølve Selstø. Hvor de stammer fra før det er ukjent, men mange av filene var i amerikansk format. Det er usikkert om Martin L. Sætra har gjort endringer. Jeg har deretter oversatt dem fra nynorsk til bokmål.
 
-Skriptene er først adoptert Sølve Selstø, hvor de kommer fra før det vet jeg ikke men mange av filene var i amerikansk format. Det er usikkert om Martin L. Sætra har gjort endringer. Deretter har jeg oversatt fra nynorsk til bokmål. Jeg har lagt til overdrevent med kommentarer av pedagogiske årsaker, disse ville jeg redusert om jeg skulle brukt de i en bedrift og også brukt flere fiks ferdige funksjoner. Alle skriptene er optimaliserte for å kunne exporteres med publish i matlab, en del bugs er fjernet og noe kode er forbedret.
+Jeg har lagt til overdrevent mange kommentarer av pedagogiske årsaker. Disse ville jeg redusert hvis jeg skulle brukt dem i en bedrift, og jeg ville også brukt flere ferdige funksjoner. Alle skriptene er optimalisert for å kunne eksporteres med 'publish' i MATLAB. En del feil er fjernet, og noe kode er forbedret.
+
+Noen er også orginale.
