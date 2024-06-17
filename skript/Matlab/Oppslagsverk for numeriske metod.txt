@@ -1,0 +1,37 @@
+%% Oppslagsverk for numeriske metoder og formler
+% Dette skriptet inneholder formler for ulike numeriske metoder.
+
+%% Riemann-summer
+% Venstre Riemann-sum
+Formel_Venstre_Riemann = 'sum(f(x_i) * DeltaX), for i fra 1 til N'
+
+% Høyre Riemann-sum
+Formel_Hoyre_Riemann = 'sum(f(x_i) * DeltaX), for i fra 1 til N, der x_i er høyre ende av delintervallet'
+
+% Midtpunkt Riemann-sum
+Formel_Midtpunkt_Riemann = 'sum(f((x_i + x_{i+1}) / 2) * DeltaX), for i fra 1 til N'
+
+%% Integral estimeringer
+% Trapesmetoden
+Formel_Trapesmetoden = '(DeltaX / 2) * (f(a) + 2 * sum(f(x_i)) + f(b)), for i fra 1 til N-1'
+
+% Simpsons metode
+Formel_Simpsons_metode = '(DeltaX / 3) * (f(a) + 4 * sum(f(x_odd)) + 2 * sum(f(x_even)) + f(b)), for odd i fra 1 til N-1 med oddetall og even for partall'
+
+%% Arealberegning
+% Areal under en kurve
+Formel_Areal = 'integral(f, a, b), der f er funksjonen og [a, b] er grensene'
+
+%% Halveringsmetoden
+% Halveringsmetoden (Bisection Method) for nullpunktsøkning
+Formel_Halveringsmetoden = 'a_n = a_(n-1) og b_n = (a_(n-1) + b_(n-1)) / 2 hvis f(a_n) * f(b_n) < 0, ellers b_n = b_(n-1) og a_n = (a_(n-1) + b_(n-1)) / 2'
+
+%% Numerisk derivasjon
+% Framoverformelen for numerisk derivasjon
+Formel_Framoverformelen = '(f(x + h) - f(x)) / h'
+
+% Bakoverformelen for numerisk derivasjon
+Formel_Bakoverformelen = '(f(x) - f(x - h)) / h'
+
+% Midtpunktsformelen for numerisk derivasjon
+Formel_Midtpunktsformelen = '(f(x + h) - f(x - h)) / (2 * h)'
